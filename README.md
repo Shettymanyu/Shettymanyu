@@ -1,9 +1,9 @@
 - 👋 Hi, I’m @Shettymanyu
-- 👀 I’m interested in Java
-- 🌱 I’m currently learning Full stack development 
+- 👀 I’m interested in Python
+- 🌱 I’m currently learning everything to be a Successfull engineer
 - 📫 How to reach me - shettymanyu@gmail.com
 - 😄 Pronouns: he/him
-- ⚡ Fun fact: Haven't completed learning full stack development yet.....
+- ⚡ Fun fact: Life is good.  
 
 <!---
 Shettymanyu/Shettymanyu is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
