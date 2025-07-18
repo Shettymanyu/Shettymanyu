@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Shettymanyu
 - 👀 I’m interested in Python
-- 🌱 I’m currently learning everything to be a Successfull engineer
+- 🌱 I’m currently exploring cybersecurity basics.
 - 📫 How to reach me - shettymanyu@gmail.com
 - 😄 Pronouns: he/him
 - ⚡ Fun fact: Life is good.  
