@@ -1,4 +1,4 @@
-# Hi, I’m Manu (@Shettymanyu) 👋
+# Hi, I’m Manyu (@Shettymanyu) 👋
 
 - 🐍 Python enthusiast  
 - 🔐 Exploring cybersecurity basics  
