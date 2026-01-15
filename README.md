@@ -1,4 +1,4 @@
-# Hi, I’m Manyu (@Shettymanyu) 👋
+# Hi, I’m Manyu👋
 
 - 🐍 Python enthusiast  
 - 🔐 Exploring cybersecurity basics  
@@ -8,21 +8,7 @@
 - 📫 Reach me: **shettymanyu@gmail.com**  
 - ⚡ Fun fact: Life is good.
 
-## What I’m doing here (and why)
-I’m using GitHub to:
-- Learn by building and documenting my journey
-- Keep my projects in one place for better understanding and version control
-- Get feedback from others and improve
-- Stay accountable with a public learning log
+New in github learning to commit my codes in github and stay consistent in 2026. 
 
-## Currently learning
-- Python fundamentals and scripting
-- Cybersecurity basics and practical labs
-- Git and GitHub workflows (branching, commits, PRs, issues)
 
-## What’s next
-- Automating small security tasks with Python
-- Publishing more practice projects as I migrate them
-- Writing short notes on what I learn
-
-Thanks for stopping by! If you have tips or ideas, I’m all ears.
+Sorry for using github late :(
