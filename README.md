@@ -8,7 +8,4 @@
 - 📫 Reach me: **shettymanyu@gmail.com**  
 - ⚡ Fun fact: Life is good.
 
-New in github learning to commit my codes in github and stay consistent in 2026. 
 
-
-Sorry for using github late :(
