@@ -1,11 +1,5 @@
-# Hi, I’m Manyu👋
-
-- 🐍 Python Developer 
-- 🔐 Exploring cybersecurity and AI agents  
-- 🧪 I like trying new things and learning in public  
-- 📦 Actively migrating my projects into GitHub — to stay organized, track progress, and invite feedback  
-- 😄 Pronouns: he/him  
-- 📫 Reach me: **shettymanyu@gmail.com**  
-- ⚡ Fun fact: Life is good.
-
-
+Hey, I'm Manyu 👋
+👨‍💻 Full Stack Dev by day — Python tinkerer by night
+🔐 Currently exploring: AI agents, RAG pipelines & cybersecurity
+🏗️ Turning side projects into real GitHub repos (slowly but surely)
+📍 Mumbai  ·  he/him  ·  shettymanyu@gmail.com
