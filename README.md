@@ -168,19 +168,6 @@ I'm a software engineer focused on building things that actually run end-to-end 
 
 ---
 
-## GitHub stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Shettymanyu&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=default" alt="Manyu's GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shettymanyu&layout=compact&hide_border=true&langs_count=8&theme=default" alt="Top languages"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shettymanyu&hide_border=true" alt="GitHub streak"/>
-</p>
-
----
-
 ## Get in touch
 
 If you're a recruiter or engineering lead, the fastest way to reach me is **<a href="mailto:shettymanyu@gmail.com">shettymanyu@gmail.com</a>**. I can share a tailored resume, walk through any of the projects above, or jump on a call.
