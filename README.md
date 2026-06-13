@@ -149,16 +149,6 @@ I'm a software engineer focused on building things that actually run end-to-end 
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>&#128202; SOC Dashboard</h3>
-      <p>Lightweight HTML/CSS/JS Security Operations Center dashboard mockup &mdash; alert feed, incident triage view, and threat-level summary cards.</p>
-      <p>
-        <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
-        <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
-        <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-      </p>
-      <p><a href="https://github.com/Shettymanyu/soc-dashboard">Repo</a></p>
-    </td>
-    <td width="50%" valign="top">
       <h3>&#9989; What's next</h3>
       <p>Currently sharpening: deeper RAG evaluation, agentic tool-use patterns, and Kubernetes for deployment. Open to internship and full-time SWE opportunities.</p>
       <p><a href="mailto:shettymanyu@gmail.com">Let&rsquo;s talk &rarr;</a></p>
