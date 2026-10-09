@@ -1,14 +1,14 @@
-<!--
-  Profile README for github.com/Shettymanyu
-  File location in your account: a repo named exactly "Shettymanyu" with a file named README.md at the root.
-  Replace any TODO markers before publishing.
--->
+<div align="center">
 
-<h1 align="center">Hi, I'm Manyu Shetty</h1>
+### `manyu@github:~$ whoami`
 
-<p align="center">
-  <em>Full-stack developer building AI agents and cybersecurity tools out of Mumbai.</em>
-</p>
+<img src="contrib-heatmap.svg" width="800" alt="Contribution heatmap, refreshed daily"/>
+
+<img src="avi-ascii.svg" width="368" alt="ASCII portrait of Manyu Shetty"/><img src="info-card.svg" width="428" alt="Manyu Shetty: full-stack developer in Mumbai working on AI agents and security. Python, Dart, Flutter, Flask, Firebase, LangChain."/>
+
+### `manyu@github:~$ ls links/`
+
+</div>
 
 <p align="center">
   <a href="mailto:shettymanyu@gmail.com">
