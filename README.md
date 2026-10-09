@@ -4,7 +4,7 @@
 
 <img src="contrib-heatmap.svg" width="800" alt="Contribution heatmap, refreshed daily"/>
 
-<img src="avi-ascii.svg" width="368" alt="ASCII portrait of Manyu Shetty"/><img src="info-card.svg" width="428" alt="Manyu Shetty: full-stack developer in Mumbai working on AI agents and security. Python, Dart, Flutter, Flask, Firebase, LangChain."/>
+<img src="portrait.svg" width="368" alt="ASCII portrait of Manyu Shetty"/><img src="info-card.svg" width="428" alt="Manyu Shetty: full-stack developer in Mumbai working on AI agents and security. Python, Dart, Flutter, Flask, Firebase, LangChain."/>
 
 ### `manyu@github:~$ ls links/`
 

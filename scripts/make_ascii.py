@@ -77,5 +77,5 @@ for i, n, spans in rendered:
     out.append(f'<text x="{PAD}" y="{y:.2f}" clip-path="url(#c{i})" textLength="{n*CW:.2f}" '
                f'lengthAdjust="spacingAndGlyphs" xml:space="preserve">{spans}</text>')
 out.append('</svg>')
-open("avi-ascii.svg", "w", encoding="utf-8").write("\n".join(out))
-print(f"avi-ascii.svg {W}x{H}, {rows} rows")
+open("portrait.svg", "w", encoding="utf-8").write("\n".join(out))
+print(f"portrait.svg {W}x{H}, {rows} rows")
