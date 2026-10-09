@@ -163,3 +163,9 @@ I'm a software engineer focused on building things that actually run end-to-end 
 If you're a recruiter or engineering lead, the fastest way to reach me is **<a href="mailto:shettymanyu@gmail.com">shettymanyu@gmail.com</a>**. I can share a tailored resume, walk through any of the projects above, or jump on a call.
 
 <sub>Thanks for stopping by &mdash; if anything here looks interesting, the demo links above are the quickest way to see the work.</sub>
+
+<!--BOT:START-->
+**Last active:** 2026-10-09 &nbsp;·&nbsp; **Daily entry:** #1
+
+> First, solve the problem. Then, write the code.
+<!--BOT:END-->
