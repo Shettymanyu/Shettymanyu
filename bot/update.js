@@ -73,16 +73,12 @@ function replaceBlock(readme, block) {
 }
 
 function main() {
-  const today = new Date().toISOString().slice(0, 10);
-  log.info(`Bot started for ${today}`);
+  const now = new Date().toISOString(); // e.g. 2026-10-09T17:33:00.000Z
+  const date = `${now.slice(0, 10)} ${now.slice(11, 16)} UTC`;
+  log.info(`Bot started for ${date}`);
 
   const entries = step("Load journal", () => loadJournal(JOURNAL));
-  if (entries.some((x) => x.date === today)) {
-    log.info("Entry for today already exists — nothing to do");
-    return;
-  }
-
-  const entry = step("Build entry", () => buildEntry(entries, today));
+  const entry = step("Build entry", () => buildEntry(entries, date));
   step("Write src/journal.js", () => {
     fs.mkdirSync(path.dirname(JOURNAL), { recursive: true });
     fs.writeFileSync(JOURNAL, renderJournal([...entries, entry]));
