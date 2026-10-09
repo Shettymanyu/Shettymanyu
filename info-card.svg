@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="428" height="510" viewBox="0 0 428 510">
+<svg xmlns="http://www.w3.org/2000/svg" width="428" height="511" viewBox="0 0 428 511">
 <style>
 text{font:13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#c9d1d9;white-space:pre}
 .t{fill:#8b949e;font-size:12px}
@@ -10,7 +10,7 @@ text{font:13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#c9d1d9
 .c{animation:blink 1s steps(1) infinite}
 @keyframes blink{50%{opacity:0}}
 </style>
-<rect width="428" height="510" rx="10" fill="#0d1117" stroke="#30363d"/>
+<rect width="428" height="511" rx="10" fill="#0d1117" stroke="#30363d"/>
 <circle cx="18" cy="14" r="5" fill="#ff5f56"/><circle cx="34" cy="14" r="5" fill="#ffbd2e"/><circle cx="50" cy="14" r="5" fill="#27c93f"/>
 <text class="t" x="214" y="18" text-anchor="middle">manyu@github: ~</text>
 
