@@ -1,24 +1,33 @@
 """One-off: photo -> animated ASCII portrait SVG.  Usage: python scripts/make_ascii.py photo.jpg
-Needs Pillow (local only, not used by the daily workflow)."""
+Needs Pillow (local only, not used by the daily workflow). Expects a portrait on a plain light backdrop."""
 import sys
 from html import escape
-from PIL import Image, ImageChops, ImageDraw, ImageFilter, ImageOps
+from PIL import Image, ImageDraw, ImageFilter, ImageOps
 
-COLS, CW, LH, FS = 48, 7.0, 12.6, 11.6   # columns, char width, line height, font size
-RAMP = " .'`:-=+*#%@"                    # dark -> bright (light text on dark bg)
-CROP = (120, 10, 280, 240)               # head + shoulders in the 400x400 avatar
+COLS, CW, LH, FS = 72, 4.67, 8.5, 7.8     # columns, char width, line height, font size (CW/LH ~ glyph aspect)
+RAMP = " .'`^,:;Il!i><~+_-?][}{1)(|/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$"  # dark -> bright (light text on dark bg)
 PAD, BAR = 16, 28
+BG_TOL, BG_LEVEL = 30, 6  # flood-fill tolerance; backdrop brightness (faint dots so dark hair/suit keep a silhouette)
+KEY = (255, 0, 255)
 
-img = ImageOps.grayscale(Image.open(sys.argv[1]).convert("RGB")).resize((400, 400)).crop(CROP)
-img = ImageOps.equalize(img)
-# ponytail: elliptical vignette instead of rembg background removal; swap in rembg if the backdrop still competes
-mask = Image.new("L", img.size, 0)
-ImageDraw.Draw(mask).ellipse((img.width * .12, -img.height * .05, img.width * .88, img.height * 1.1), fill=255)
-img = ImageChops.multiply(img, mask.filter(ImageFilter.GaussianBlur(img.width / 10)))
-rows = round(COLS * img.height / img.width * CW / LH)
-img = img.resize((COLS, rows))
-px = img.load()
-lines = ["".join(RAMP[px[x, y] * (len(RAMP) - 1) // 255] for x in range(COLS)) for y in range(rows)]
+img = Image.open(sys.argv[1]).convert("RGB")
+w, h = img.size
+d = ImageDraw.Draw(img)
+d.rectangle((w - 90, h - 90, w, h), fill=img.getpixel((w - 120, h - 60)))  # paint over corner watermark
+for y in range(0, h, 40):                                                  # flood backdrop from both edges
+    for x in (0, w - 1):
+        if sum(img.getpixel((x, y))) > 450:
+            ImageDraw.floodfill(img, (x, y), KEY, thresh=BG_TOL)
+
+bg = Image.frombytes("L", img.size, bytes(255 if p == KEY else 0 for p in img.get_flattened_data()))
+person = ImageOps.invert(bg)
+g = ImageOps.grayscale(img).filter(ImageFilter.UnsharpMask(radius=25, percent=160, threshold=2))  # local contrast (CLAHE-ish)
+g = ImageOps.autocontrast(g, cutoff=1, mask=person)                        # stretch tones over the person only
+g.paste(BG_LEVEL, mask=bg.filter(ImageFilter.GaussianBlur(2)))
+rows = round(COLS * h / w * CW / LH)
+g = g.resize((COLS, rows), Image.LANCZOS)
+px = g.load()
+lines = ["".join(RAMP[px[x, y] * (len(RAMP) - 1) // 255] for x in range(COLS)).rstrip() for y in range(rows)]
 
 W = round(COLS * CW + PAD * 2)
 H = round(BAR + PAD + rows * LH + PAD)
@@ -33,12 +42,14 @@ out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBo
 for i in range(rows):
     y = BAR + PAD + i * LH
     out.append(f'<clipPath id="c{i}"><rect x="0" y="{y-LH:.1f}" height="{LH+2}" width="0">'
-               f'<animate attributeName="width" from="0" to="{W}" begin="{i*0.06:.2f}s" dur="0.5s" fill="freeze"/>'
+               f'<animate attributeName="width" from="0" to="{W}" begin="{i*0.05:.2f}s" dur="0.5s" fill="freeze"/>'
                '</rect></clipPath>')
 out.append('</defs>')
 for i, line in enumerate(lines):
-    y = BAR + PAD + i * LH
-    out.append(f'<text x="{PAD}" y="{y:.1f}" clip-path="url(#c{i})" textLength="{COLS*CW}" lengthAdjust="spacingAndGlyphs" xml:space="preserve">{escape(line)}</text>')
+    if line:
+        y = BAR + PAD + i * LH
+        out.append(f'<text x="{PAD}" y="{y:.1f}" clip-path="url(#c{i})" textLength="{len(line)*CW:.2f}" '
+                   f'lengthAdjust="spacingAndGlyphs" xml:space="preserve">{escape(line)}</text>')
 out.append('</svg>')
 open("avi-ascii.svg", "w", encoding="utf-8").write("\n".join(out))
 print("\n".join(lines))
