@@ -4,7 +4,7 @@
 
 <img src="contrib-heatmap.svg" width="800" alt="Contribution heatmap, refreshed daily"/>
 
-<img src="portrait.svg" width="368" alt="ASCII portrait of Manyu Shetty"/><img src="info-card.svg" width="428" alt="Manyu Shetty: software developer in Mumbai working on insurance automation and AI agents."/>
+<img src="portrait.svg" width="368" alt="ASCII portrait of Manyu Shetty"/>
 
 ### `manyu@github:~$ ls links/`
 
