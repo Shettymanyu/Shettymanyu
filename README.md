@@ -28,12 +28,12 @@
 
 ## About me
 
-I'm a software developer in the insurance-tech space. I started at **Generali Central Insurance** as a trainee and grew into an Executive Software Developer, owning development of two **BANCA policy-issuance portals**, closing **VAPT** security findings on production, and building **RPA** for bulk policy creation and OEM workflows. I'm now on the **AI automation team at Magma General Insurance**, building automation for insurance portals and claims workflows.
+I'm a software developer in the insurance-tech space. I started at **Generali Central Insurance** as a trainee and grew into an Executive Software Developer, creating **enterprise web portals** (including two **BANCA policy-issuance portals**), closing **VAPT** security findings on production, and building **RPA** for bulk policy creation and OEM workflows. I'm now on the **AI automation team at Magma General Insurance**, where I created the base framework (the chassis) for **InsureIQ** and build automation for insurance portals and claims workflows.
 
 On the side, I build AI agents in Python: **RAG pipelines**, **voice agents**, and security tooling.
 
 - Day to day &nbsp;**RPA and HTTP/API-based automation for insurance workflows**
-- Background &nbsp;**.NET Core and Angular portals, plus application security (VAPT, MFA)**
+- Background &nbsp;**.NET Core and Angular enterprise web portals, plus application security (VAPT)**
 - Exploring &nbsp;**LLM agents, RAG and agentic workflows**
 
 ---
@@ -99,7 +99,6 @@ On the side, I build AI agents in Python: **RAG pipelines**, **voice agents**, a
     <td><b>Security</b></td>
     <td>
       <img src="https://img.shields.io/badge/VAPT%20Remediation-B71C1C?style=flat-square"/>
-      <img src="https://img.shields.io/badge/MFA-1B5E20?style=flat-square"/>
       <img src="https://img.shields.io/badge/OWASP%20Top%2010-000000?style=flat-square&logo=owasp&logoColor=white"/>
     </td>
   </tr>
@@ -119,8 +118,8 @@ On the side, I build AI agents in Python: **RAG pipelines**, **voice agents**, a
 
 ## What I do at work
 
-- **Magma General Insurance (2026 - now):** AI automation for insurance portals and claims workflows, using UI-based and HTTP/API-based automation.
-- **Generali Central Insurance (2024 - 2026):** Trainee to Executive Software Developer. Developed and enhanced two BANCA policy-issuance portals (Angular + .NET Core + SQL Server), closed VAPT findings on production portals, added MFA, and built Python + Playwright RPA for bulk policy creation and OEM workflows.
+- **Magma General Insurance (2026 - now):** AI automation for insurance portals and claims workflows, using UI-based and HTTP/API-based automation. Created the base framework (chassis) for InsureIQ.
+- **Generali Central Insurance (2024 - 2026):** Trainee to Executive Software Developer. Created enterprise web portals (Angular + .NET Core + SQL Server), including two BANCA policy-issuance portals, closed VAPT findings on production portals, and built Python + Playwright RPA for bulk policy creation and OEM workflows.
 
 ---
 
