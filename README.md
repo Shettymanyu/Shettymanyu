@@ -4,7 +4,7 @@
 
 <img src="contrib-heatmap.svg" width="800" alt="Contribution heatmap, refreshed daily"/>
 
-<img src="portrait.svg" width="368" alt="ASCII portrait of Manyu Shetty"/><img src="info-card.svg" width="428" alt="Manyu Shetty: full-stack developer in Mumbai working on AI agents and security. Python, Dart, Flutter, Flask, Firebase, LangChain."/>
+<img src="portrait.svg" width="368" alt="ASCII portrait of Manyu Shetty"/><img src="info-card.svg" width="428" alt="Manyu Shetty: software developer in Mumbai working on insurance automation and AI agents."/>
 
 ### `manyu@github:~$ ls links/`
 
@@ -17,23 +17,24 @@
   <a href="https://github.com/Shettymanyu">
     <img src="https://img.shields.io/badge/GitHub-Shettymanyu-181717?style=flat-square&logo=github" alt="GitHub"/>
   </a>
-  <!-- TODO: replace with your real LinkedIn URL once you have one -->
   <a href="https://www.linkedin.com/in/shettymanyu/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <img src="https://img.shields.io/badge/Location-Mumbai%2C%20India-2E7D32?style=flat-square&logo=googlemaps&logoColor=white" alt="Mumbai"/>
-  <img src="https://img.shields.io/badge/Open%20to-Software%20Engineering%20Roles-success?style=flat-square" alt="Open to work"/>
+  <img src="https://img.shields.io/badge/Open%20to-AI%20%2F%20Automation%20Engineering%20Roles-success?style=flat-square" alt="Open to work"/>
 </p>
 
 ---
 
 ## About me
 
-I'm a software engineer focused on building things that actually run end-to-end &mdash; mobile front-ends, Python back-ends, AI agents, and the security layer underneath. My recent work spans **RAG pipelines for data-loss prevention**, **voice-controlled desktop agents**, and a **Flutter + IoT smart-parking system**. I like projects that touch real hardware, real users, or real attack surfaces.
+I'm a software developer in the insurance-tech space. I started at **Generali Central Insurance** as a trainee and grew into an Executive Software Developer, owning development of two **BANCA policy-issuance portals**, closing **VAPT** security findings on production, and building **RPA** for bulk policy creation and OEM workflows. I'm now on the **AI automation team at Magma General Insurance**, building automation for insurance portals and claims workflows.
 
-- Currently exploring &nbsp;**AI agents, RAG, and applied cybersecurity**
-- Comfortable across &nbsp;**Python, Dart/Flutter, JavaScript, Firebase, Flask**
-- Looking for &nbsp;**software engineering roles** (full-stack, applied AI, or security-leaning)
+On the side, I build AI agents in Python: **RAG pipelines**, **voice agents**, and security tooling.
+
+- Day to day &nbsp;**RPA and HTTP/API-based automation for insurance workflows**
+- Background &nbsp;**.NET Core and Angular portals, plus application security (VAPT, MFA)**
+- Exploring &nbsp;**LLM agents, RAG and agentic workflows**
 
 ---
 
@@ -44,56 +45,82 @@ I'm a software engineer focused on building things that actually run end-to-end 
     <td><b>Languages</b></td>
     <td>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white"/>
+      <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
       <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+      <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=microsoftsqlserver&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Backend</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/.NET%20Core-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
+      <img src="https://img.shields.io/badge/ASP.NET%20Web%20API-512BD4?style=flat-square&logo=dotnet&logoColor=white"/>
+      <img src="https://img.shields.io/badge/REST%20APIs-009688?style=flat-square"/>
+      <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Frontend</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white"/>
       <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
       <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
-      <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white"/>
     </td>
   </tr>
   <tr>
-    <td><b>Frameworks</b></td>
+    <td><b>Database</b></td>
     <td>
-      <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/>
-      <img src="https://img.shields.io/badge/GetX-8A2BE2?style=flat-square"/>
+      <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Stored%20Procedures-4479A1?style=flat-square"/>
     </td>
   </tr>
   <tr>
-    <td><b>AI / Data</b></td>
+    <td><b>RPA / Automation</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white"/>
+      <img src="https://img.shields.io/badge/UI%20Automation-0A0A0A?style=flat-square"/>
+      <img src="https://img.shields.io/badge/HTTP%20%2F%20API%20Automation-0A0A0A?style=flat-square"/>
+    </td>
+  </tr>
+  <tr>
+    <td><b>AI / LLM</b></td>
     <td>
       <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square"/>
+      <img src="https://img.shields.io/badge/Gemini%20API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white"/>
       <img src="https://img.shields.io/badge/ChromaDB-FF6F00?style=flat-square"/>
+      <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
       <img src="https://img.shields.io/badge/RAG-0A0A0A?style=flat-square"/>
-      <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white"/>
-    </td>
-  </tr>
-  <tr>
-    <td><b>Cloud / Infra</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/>
-      <img src="https://img.shields.io/badge/Google%20Maps-4285F4?style=flat-square&logo=googlemaps&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white"/>
-      <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
     </td>
   </tr>
   <tr>
     <td><b>Security</b></td>
     <td>
-      <img src="https://img.shields.io/badge/OWASP-000000?style=flat-square&logo=owasp&logoColor=white"/>
-      <img src="https://img.shields.io/badge/WAF-FF4F00?style=flat-square"/>
-      <img src="https://img.shields.io/badge/SOC%20Monitoring-1B5E20?style=flat-square"/>
+      <img src="https://img.shields.io/badge/VAPT%20Remediation-B71C1C?style=flat-square"/>
+      <img src="https://img.shields.io/badge/MFA-1B5E20?style=flat-square"/>
+      <img src="https://img.shields.io/badge/OWASP%20Top%2010-000000?style=flat-square&logo=owasp&logoColor=white"/>
     </td>
   </tr>
   <tr>
     <td><b>Tooling</b></td>
     <td>
       <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
-      <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white"/>
       <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=flat-square&logo=visualstudio&logoColor=white"/>
+      <img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white"/>
     </td>
   </tr>
 </table>
+
+---
+
+## What I do at work
+
+- **Magma General Insurance (2026 - now):** AI automation for insurance portals and claims workflows, using UI-based and HTTP/API-based automation.
+- **Generali Central Insurance (2024 - 2026):** Trainee to Executive Software Developer. Developed and enhanced two BANCA policy-issuance portals (Angular + .NET Core + SQL Server), closed VAPT findings on production portals, added MFA, and built Python + Playwright RPA for bulk policy creation and OEM workflows.
 
 ---
 
@@ -102,34 +129,20 @@ I'm a software engineer focused on building things that actually run end-to-end 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>&#127968; Smart Parking App &mdash; Flutter + IoT</h3>
-      <p>Cross-platform Flutter app paired with Arduino sensors to show real-time parking-slot availability. Auth, Firestore + Realtime DB, Google Maps, Lottie UI.</p>
-      <p>
-        <img src="https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white"/>
-        <img src="https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/>
-        <img src="https://img.shields.io/badge/-Arduino-00979D?style=flat-square&logo=arduino&logoColor=white"/>
-      </p>
-      <p>
-        <a href="https://github.com/Shettymanyu/Smart-Parking-App-Flutter-App-And-IOT">Repo</a>
-        &nbsp;&middot;&nbsp;
-        <a href="https://youtu.be/3mukGYjvixE?si=MhnM5dGtEfY931rl">Demo video</a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
       <h3>&#129302; DLP AI Agent</h3>
-      <p>Retrieval-augmented agent for data-loss prevention. Scans documents against a Chroma vector store of policy rules and flags sensitive content with reasoning.</p>
+      <p>Retrieval-augmented agent for data-loss prevention. Indexes policy documents in a Chroma vector store, retrieves the relevant rules, and has an LLM flag sensitive content with reasoning.</p>
       <p>
         <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
         <img src="https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square"/>
         <img src="https://img.shields.io/badge/-ChromaDB-FF6F00?style=flat-square"/>
+        <img src="https://img.shields.io/badge/-Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white"/>
+        <img src="https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
       </p>
       <p><a href="https://github.com/Shettymanyu/dlp-ai-agent">Repo</a></p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3>&#128737;&#65039; Web Application Firewall Simulator</h3>
-      <p>Flask-based WAF playground that intercepts traffic and demonstrates detection of common OWASP Top-10 attacks (SQLi, XSS, path traversal) with a live UI.</p>
+      <p>Flask-based WAF playground that detects and blocks common attack vectors (SQL injection, XSS, CSRF, command injection) with a live monitoring dashboard and configurable rules.</p>
       <p>
         <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
         <img src="https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white"/>
@@ -137,20 +150,20 @@ I'm a software engineer focused on building things that actually run end-to-end 
       </p>
       <p><a href="https://github.com/Shettymanyu/Web-Application-Firewall-WAF-simulator">Repo</a></p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3>&#127908; Voice App Opener (AI Agent)</h3>
-      <p>Hands-free desktop launcher: clap to wake, speak a command, the agent opens the right application. Includes calibration and startup-install scripts.</p>
+      <p>Hands-free desktop launcher: clap to wake, speak a command, and the agent opens the right application or URL. JSON-configurable commands, real-time audio processing, startup-install script.</p>
       <p>
         <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
         <img src="https://img.shields.io/badge/-Speech%20Recognition-4285F4?style=flat-square&logo=googleassistant&logoColor=white"/>
       </p>
       <p><a href="https://github.com/Shettymanyu/voice-app-opener-ai-agent">Repo</a></p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3>&#9989; What's next</h3>
-      <p>Currently sharpening: deeper RAG evaluation, agentic tool-use patterns, and Kubernetes for deployment. Open to internship and full-time SWE opportunities.</p>
+      <p>Currently learning: FastAPI, Docker and agentic workflows, to take my RAG and automation work from scripts to deployed services.</p>
       <p><a href="mailto:shettymanyu@gmail.com">Let&rsquo;s talk &rarr;</a></p>
     </td>
   </tr>
@@ -160,6 +173,4 @@ I'm a software engineer focused on building things that actually run end-to-end 
 
 ## Get in touch
 
-If you're a recruiter or engineering lead, the fastest way to reach me is **<a href="mailto:shettymanyu@gmail.com">shettymanyu@gmail.com</a>**. I can share a tailored resume, walk through any of the projects above, or jump on a call.
-
-<sub>Thanks for stopping by &mdash; if anything here looks interesting, the demo links above are the quickest way to see the work.</sub>
+If you're a recruiter or engineering lead, the fastest way to reach me is **<a href="mailto:shettymanyu@gmail.com">shettymanyu@gmail.com</a>**. I can share a tailored resume or walk through any of the projects above.
