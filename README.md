@@ -1,3 +1,11 @@
+<div align="center">
+
+<img src="contrib-heatmap.svg" width="800" alt="Contribution heatmap, refreshed daily"/>
+
+<img src="portrait.svg" width="368" alt="ASCII portrait of Manyu Shetty"/>
+
+</div>
+
 # Manyu Shetty
 
 <p>
